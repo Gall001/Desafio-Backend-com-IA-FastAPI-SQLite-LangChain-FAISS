@@ -1,0 +1,23 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+sqlalchemy==2.0.36
+aiosqlite==0.20.0
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# Q2 - Chatbot com LangChain
+langchain==0.3.1
+langchain-openai==0.2.1
+langchain-community==0.3.1
+
+# Q3 - Vector Store & Embeddings
+faiss-cpu
+sentence-transformers==3.1.1
+
+# Tests
+pytest==8.3.3
+pytest-asyncio==0.24.0
+httpx==0.27.2
+
+# Utils
+python-dotenv==1.0.1
